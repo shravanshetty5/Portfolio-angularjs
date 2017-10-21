@@ -1,7 +1,9 @@
-module.exports = {
+let error = {
     controllerAs: 'vm',
     controller: function () {
-        var vm = this;
+        let vm = this;
     },
     template: require('./error.component.html')
-}
+};
+
+export default error;

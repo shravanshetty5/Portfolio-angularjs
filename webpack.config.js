@@ -107,7 +107,7 @@ module.exports = function makeWebpackConfig() {
         loader: [
           {loader: 'css-loader', query: {sourceMap: true}},
           {loader: 'postcss-loader'}
-        ],
+        ]
       })
     }, {
       // ASSET LOADER

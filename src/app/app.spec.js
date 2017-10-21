@@ -1,4 +1,5 @@
 import app from './app';
+import angular from 'angular';
 
 describe('app', () => {
 

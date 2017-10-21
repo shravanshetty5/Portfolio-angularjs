@@ -2,7 +2,7 @@ routing.$inject = ['$urlRouterProvider', '$locationProvider', '$stateProvider'];
 
 export default function routing($urlRouterProvider, $locationProvider, $stateProvider) {
   $locationProvider.html5Mode(true);
-  var states = [
+  let states = [
     {
         name: 'Home',
         url: '',
@@ -67,7 +67,7 @@ export default function routing($urlRouterProvider, $locationProvider, $statePro
         name: 'Error',
         url: '/error',
         template: '<error></error>'
-    },
+    }
 ];
 $urlRouterProvider.when('/experience', '/experience/list');
 $urlRouterProvider.when('/education', '/education/list');

@@ -7,6 +7,7 @@ import routing from './app.router';
 import mainNavigation from './modules/mainNavigation';
 import home from './modules/home';
 import error from './modules/error';
+import education from './modules/education';
 
 import '../style/app.css';
 
@@ -15,19 +16,18 @@ let app = () => {
     template: require('./app.html'),
     controller: 'AppCtrl',
     controllerAs: 'app'
-  }
+  };
 };
 
 class AppCtrl {
-  constructor() {
-  }
+  constructor() {}
 }
 
 
 
 const MODULE_NAME = 'app';
 
-angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error])
+angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education])
   .config(routing)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);
