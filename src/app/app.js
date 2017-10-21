@@ -1,10 +1,12 @@
 import angular from 'angular';
 import 'bootstrap/dist/css/bootstrap.css';
 import uirouter from 'angular-ui-router';
+import 'angular-typewriter/dist/angular-typewrite.css';
 
 import routing from './app.router';
 import mainNavigation from './modules/mainNavigation';
 import home from './modules/home';
+import error from './modules/error';
 
 import '../style/app.css';
 
@@ -25,7 +27,7 @@ class AppCtrl {
 
 const MODULE_NAME = 'app';
 
-angular.module(MODULE_NAME, [uirouter, mainNavigation, home])
+angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error])
   .config(routing)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);
