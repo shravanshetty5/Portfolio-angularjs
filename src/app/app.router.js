@@ -31,7 +31,7 @@ export default function routing($urlRouterProvider, $locationProvider, $statePro
                 return $stateParams.schoolId;
             }
         },
-        template: '<school-details schools="vm.educationData" school-id="$resolve.schoolId"></school-details>'
+        template: '<school-details school="vm.educationData[$resolve.schoolId]"></school-details>'
     },
     {
         name: 'Experience',
