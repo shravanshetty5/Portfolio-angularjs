@@ -6,3 +6,10 @@ body {
     padding-top: 56px;
   }
 }
+
+.progressbar-item-container {
+  width:150px;
+  height:150px;
+  margin:10px;
+  position:relative
+}

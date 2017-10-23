@@ -9,6 +9,7 @@ import home from './modules/home';
 import error from './modules/error';
 import education from './modules/education';
 import experience from './modules/experience';
+import skills from './modules/skills';
 
 import '../style/app.css';
 
@@ -28,7 +29,7 @@ class AppCtrl {
 
 const MODULE_NAME = 'app';
 
-angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education, experience])
+angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education, experience, skills])
   .config(routing)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);

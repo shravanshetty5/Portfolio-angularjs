@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6">
+      picture space
+    </div>
+    <div class="col-lg-6 text-center">
+        <div class="grid" ng-repeat="skill in vm.skills">
+                <skill-item class="grid-item" skill-name="skill.name" skill-id="skill.id" skill-level="skill.level"></skill-item>
+        </div>
+    </div>
+  </div>
+</div>
