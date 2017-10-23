@@ -11,17 +11,19 @@ const skillItemCtrl = function () {
         // prevent clipping
         strokeWidth: 4,
         trailWidth: 1,
-        easing: 'easeInOut',
-        duration: 1400,
+        easing: 'bounce',
+        duration: parseInt(vm.skillLevel)*40,
         text: {
           autoStyleContainer: false
         },
         from: {
           color: '#aaa',
+          a: 0,
           width: 1
         },
         to: {
           color: '#333',
+          a: 1,
           width: 4
         },
         // Set default step function for all animate calls
