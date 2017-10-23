@@ -5,7 +5,7 @@ const skillItemCtrl = function () {
 
   vm.$onInit = function () {
     setTimeout(function () {
-      let bar = new ProgressBar.Circle('#progressbar-item-container-' + String(vm.skillId), {
+      vm.bar = new ProgressBar.Circle('#progressbar-item-container-' + String(vm.skillId), {
         color: '#aaa',
         // This has to be the same size as the maximum width to
         // prevent clipping
@@ -26,6 +26,7 @@ const skillItemCtrl = function () {
           a: 1,
           width: 4
         },
+        
         // Set default step function for all animate calls
         step: function (state, circle) {
           circle.path.setAttribute('stroke', state.color);
@@ -40,11 +41,19 @@ const skillItemCtrl = function () {
 
         }
       });
-      bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-      bar.text.style.fontSize = '1.3rem';
+      vm.bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+      vm.bar.text.style.fontSize = '1.3rem';
 
-      bar.animate(parseInt(vm.skillLevel) / 100);
+      vm.bar.animate(parseInt(vm.skillLevel) / 100);
     }, 10);
+  };
+
+  vm.changeTestColor = () => {
+    vm.bar.text.style.color = "black";
+  };
+
+  vm.resetTextColor = () => {
+    vm.bar.text.style.color = "rgb(170, 170, 170)";
   };
 };
 

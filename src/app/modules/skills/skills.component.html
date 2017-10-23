@@ -4,7 +4,7 @@
       picture space
     </div>
     <div class="col-lg-6 text-center grid">
-        <div class="grid-item" ng-repeat="skill in vm.skills">
+        <div class="grid-item" ng-repeat="skill in vm.skills" id="{{skill.id}}">
                 <skill-item skill-name="skill.name" skill-id="skill.id" skill-level="skill.level"></skill-item>
         </div>
     </div>
