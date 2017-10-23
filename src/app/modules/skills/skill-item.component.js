@@ -42,7 +42,7 @@ const skillItemCtrl = function () {
       bar.text.style.fontSize = '1.3rem';
 
       bar.animate(parseInt(vm.skillLevel) / 100);
-    }, 100);
+    }, 10);
   };
 };
 

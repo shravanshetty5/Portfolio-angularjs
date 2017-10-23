@@ -1,4 +1,5 @@
 import ProgressBar from 'progressbar.js';
+import Masonry from 'masonry-layout';
 
 const skillsCtrl = function () {
     let vm = this;
@@ -19,7 +20,17 @@ const skillsCtrl = function () {
         'level': '40'
       }
     ];
-    console.log(vm.skills);
+
+    vm.$onInit = function () {
+      setTimeout(function() {
+        let elem = document.querySelector('.grid');
+        let msnry = new Masonry( elem, {
+          // options
+          itemSelector: '.grid-item',
+          columnWidth: 200
+        });
+      }, 100);
+    };
 };
 
 
