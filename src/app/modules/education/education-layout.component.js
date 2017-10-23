@@ -1,10 +1,10 @@
 // eslint-disable-next-line
-import etext from "../../../data/education-data";
+import eduText from "../../../data/education-data";
 const education = {
   controllerAs: 'vm',
   controller: function () {
     let vm = this;
-    vm.educationData = etext;
+    vm.educationData = eduText;
   },
   template: require('./education-layout.component.html')
 };

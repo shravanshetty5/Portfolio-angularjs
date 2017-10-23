@@ -8,6 +8,7 @@ import mainNavigation from './modules/mainNavigation';
 import home from './modules/home';
 import error from './modules/error';
 import education from './modules/education';
+import experience from './modules/experience';
 
 import '../style/app.css';
 
@@ -27,7 +28,7 @@ class AppCtrl {
 
 const MODULE_NAME = 'app';
 
-angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education])
+angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education, experience])
   .config(routing)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);

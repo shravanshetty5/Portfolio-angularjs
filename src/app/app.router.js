@@ -36,12 +36,12 @@ export default function routing($urlRouterProvider, $locationProvider, $statePro
     {
         name: 'Experience',
         url: '/experience',
-        template: '<work></work>'
+        template: '<experience></experience>'
     },
     {
         name: 'Experience.companyList',
         url: '/list',
-        template: '<company-list works="vm.works"></company-list>'
+        template: '<work-list works="vm.works"></work-list>'
     },
     {
         name: 'Experience.workDetails',
@@ -51,7 +51,7 @@ export default function routing($urlRouterProvider, $locationProvider, $statePro
                 return $stateParams.workId;
             }
         },
-        template: '<work-details works="vm.works" work-id="$resolve.workId"></work-details>'
+        template: '<work-details work="vm.works[$resolve.workId]"></work-details>'
     },
     {
         name: 'Skills',
