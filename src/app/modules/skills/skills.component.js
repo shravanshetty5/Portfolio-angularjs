@@ -1,25 +1,11 @@
+// eslint-disable-next-line
+import skillsText from "../../../data/skills-data.json";
 import ProgressBar from 'progressbar.js';
 import Masonry from 'masonry-layout';
 
 const skillsCtrl = function () {
     let vm = this;
-    vm.skills = [
-      {
-        'id': 0,
-        'name': 'JavaScript',
-        'level': '50'
-      },
-      {
-        'id': 1,
-        'name': 'AngularJS',
-        'level': '70'
-      },
-      {
-        'id': 2,
-        'name': 'ReactJS',
-        'level': '40'
-      }
-    ];
+    vm.skills = skillsText;
 
     vm.$onInit = function () {
       setTimeout(function() {
@@ -29,7 +15,7 @@ const skillsCtrl = function () {
           itemSelector: '.grid-item',
           columnWidth: 200
         });
-      }, 100);
+      }, 200);
     };
 };
 

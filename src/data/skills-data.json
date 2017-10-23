@@ -1,0 +1,32 @@
+{
+  "0": {
+    "id": 0,
+    "name": "JavaScript",
+    "level": "50"
+  },
+  "1": {
+    "id": 1,
+    "name": "AngularJS",
+    "level": "70"
+  },
+  "2": {
+    "id": 2,
+    "name": "ReactJS",
+    "level": "40"
+  },
+  "3": {
+    "id": 3,
+    "name": "NodeJS",
+    "level": "40"
+  },
+  "4": {
+    "id": 4,
+    "name": "HTML",
+    "level": "60"
+  },
+  "5": {
+    "id": 5,
+    "name": "CSS",
+    "level": "50"
+  }
+}

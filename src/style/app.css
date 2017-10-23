@@ -13,3 +13,7 @@ body {
   margin:10px;
   position:relative
 }
+
+.grid-item {
+  margin: 20px 0px 20px 0px;
+}
