@@ -9,7 +9,7 @@
     "test:watch": "karma start --auto-watch --no-single-run",
     "start": "npm-run-all --parallel server lint:watch test:watch",
     "lint": "node_modules/.bin/esw src",
-    "lint:watch": "npm run lint -- --watch"
+    "lint:watch": "yarn lint -- --watch"
   },
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
     "karma-spec-reporter": "0.0.26",
     "karma-webpack": "2.0.1",
     "node-libs-browser": "2.0.0",
-    "npm-run-all": "1.8.0",
+    "npm-run-all": "^4.1.1",
     "null-loader": "^0.1.1",
     "phantomjs-prebuilt": "^2.1.4",
     "postcss-loader": "1.2.2",
