@@ -143,7 +143,7 @@ module.exports = function makeWebpackConfig() {
       query: {
         esModules: true
       }
-    })
+    });
   }
 
   /**
