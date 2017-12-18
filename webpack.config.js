@@ -207,7 +207,7 @@ module.exports = function makeWebpackConfig() {
       new CopyWebpackPlugin([{
         from: __dirname + '/src/public'
       }])
-    )
+    );
   }
 
   /**

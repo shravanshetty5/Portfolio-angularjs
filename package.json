@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Angularjs portfolio app.",
   "scripts": {
-    "build": "rimraf dist && NODE_ENV=production webpack --bail --progress --profile",
+    "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
     "test": "karma start",
     "test:watch": "karma start --auto-watch --no-single-run",
-    "start": "npm-run-all --parallel server lint:watch test:watch",
+    "start": "node server.js",
     "lint": "node_modules/.bin/esw src",
-    "lint:watch": "yarn lint -- --watch"
+    "lint:watch": "yarn lint -- --watch",
+    "deploy": "NODE_ENV=production node server.js",
+    "start:local": "npm-run-all --parallel server lint:watch test:watch"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,12 @@
     "angular-typewriter": "0.0.15",
     "angular-ui-router": "^0.4.2",
     "bootstrap": "^4.0.0-beta",
+    "express": "^4.16.2",
     "jquery": "^3.2.1",
     "masonry-layout": "^4.2.0",
     "popper.js": "1.12.3",
-    "progressbar.js": "^1.0.1"
+    "progressbar.js": "^1.0.1",
+    "webpack": "^2.2.0"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
@@ -61,7 +65,6 @@
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.1",
     "style-loader": "^0.13.0",
-    "webpack": "2.2.0",
     "webpack-dev-server": "2.2.0"
   },
   "jspm": {
