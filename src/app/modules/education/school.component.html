@@ -6,14 +6,16 @@
     </div>
     <div class="card-body text-dark">
         <div class="media">
-            <img class="d-flex mr-3 col-md-auto" src="" alt="School Thumbnail Image">
+            <div class="logo-container d-flex mr-3 col-md-auto">
+                <img src="{{vm.school.imageUrl}}" alt="School Thumbnail Image">
+            </div>
             <div class="media-body col-md-auto">
                     <h5 class="card-title">{{vm.school.degree}}, {{vm.school.field}}</h5>
                     <p class="card-text">{{vm.school.startYear}} - {{vm.school.endYear}}</p>
                     <a href ng-hide="vm.moreInfo" ng-click="vm.toggleMoreInfo()">More</a>
                     <div ng-hide="!vm.moreInfo">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Morbi sodales nec turpis in auctor. Morbi sit amet enim 
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Morbi sodales nec turpis in auctor. Morbi sit amet enim
                             porttitor, pellentesque nibh nec, blandit massa. Pellentesque tincidunt hendrerit orci at euismod.
                         </p>
                         <a href ng-click="vm.toggleMoreInfo()">Less</a>

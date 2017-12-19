@@ -7,7 +7,7 @@
     "startDate": "June-2017",
     "endDate": "Present",
     "description": "As a full stack developer at Cisco, I am currently working on a Toolkit project which provides a set of reusable, well-tested, and accessible UI components based on the Symphony Design System for AngularJS, ReactJS and Angular frameworks.\n Technologies Used: AngularJS 1.6, ReactJS, Angular, TypeScript, NodeJS, Jasmin, Karma, Webpack, SASS, HTML5, Git.\n The previous projects I have worked on Include:\n\t* Developing e2e scripts that provide full coverage to Spark call, Cisco's 1 stop shop for enterprise collaboration tools.\n\t* Refactoring AngularJS code to new AngularJS 1.6 component designs and type script classes.\n\t* Test Driven development of Atals and Cisco Spark, applications which are designed to bring enterprise collaboration tools to the 21st century.\n Technologies Used:  AngularJS, javaScript ES6, Protractor,Jasmin, Sauce Labs, NodeJS, Webpack, REST API's, Cassandra, Yarn, Karma.",
-    "imgUrl": ""
+    "imgUrl": "/img/cisco-logo.png"
 
   },
   "1": {
@@ -18,7 +18,7 @@
     "startDate": "September-2015",
     "endDate": "May-2017",
     "description": "Full stack developer working on Atlas and Cisco Spark, Cisco's Corporate Infrastructure tools. \n Skills: JavaScript, AngularJS, CSS3, HTML5, Docker, Git, Java, Cassandra, JavaScript Promises. \n My internship with Cisco has helped me gain valuable technical and functional knowledge used in today’s fast paced industry. In terms of understanding Cisco’s business, I now have a good understanding of products like Atlas and Cisco Spark and its inner workings. Having worked with multiple teams, I now have an understanding of different layers of implementation and its interdependencies. \n A few things I have achieved during this period are \n\t * Improved UX by Redesigned PSTN order workflow for partner login in Atlas.\n\t * Deployed server side sort to eliminate error caused by pagination when dealing with bulk data. \n\t * Worked with a global team to implement order status feature in Cisco Spark, Helpdesk. \n\t * Eliminated Cassandra Docker dependencies by implementing CasandraUnit.",
-    "imgUrl": ""
+    "imgUrl": "/img/a&m-logo.jpg"
 
   },
   "2": {
@@ -29,7 +29,7 @@
     "startDate": "June-2016",
     "endDate": "August-2016",
     "description": "My role as a Graduate Research Assistant involves designing the System architecture for a Systems Safety Data Network and developing its the front end. My responsibilities include designing and maintaining the ACE lab website. I have authored and presented papers at the ISERC, CESUN and CSERC conferences about my research.",
-    "imgUrl": ""
+    "imgUrl": "/img/cisco-logo.png"
   },
   "3": {
     "id": 3,
@@ -39,6 +39,6 @@
     "startDate": "January-2013",
     "endDate": "April-2015",
     "description": "As a PeopleSoft Techno-Functional  consultant at Accenture, I was in charge of managing the online order capture module of an advertising company based in Texas. The skills i developed here are Requirement analysis, PeopleSoft API, PeopleCode,JAVA, Database Analysis, PL/SQL scripting and XML.",
-    "imgUrl": ""
+    "imgUrl": "/img/accenture-logo.jpg"
   }
 }
