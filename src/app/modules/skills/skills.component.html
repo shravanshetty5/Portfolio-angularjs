@@ -5,7 +5,7 @@
     </div>
     <div class="col-lg-6 text-center grid">
         <div class="grid-item" ng-repeat="skill in vm.skills" id="{{skill.id}}">
-                <skill-item skill-name="skill.name" skill-id="skill.id" skill-level="skill.level"></skill-item>
+          <skill-item skill-name="skill.name" skill-id="skill.id" skill-level="skill.level" ng-click="vm.click(skill.url)" style="cursor: pointer;"></skill-item>
         </div>
     </div>
   </div>

@@ -2,31 +2,61 @@
   "0": {
     "id": 0,
     "name": "JavaScript",
-    "level": "50"
+    "level": "80",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   "1": {
     "id": 1,
-    "name": "AngularJS",
-    "level": "70"
+    "name": "Typescript",
+    "level": "70",
+    "url": "https://www.typescriptlang.org/"
   },
   "2": {
     "id": 2,
-    "name": "ReactJS",
-    "level": "40"
+    "name": "Angular",
+    "level": "75",
+    "url": "https://angular.io/"
   },
   "3": {
     "id": 3,
-    "name": "NodeJS",
-    "level": "40"
+    "name": "RxJs",
+    "level": "40",
+    "url": "https://ngrx.io/"
   },
   "4": {
     "id": 4,
-    "name": "HTML",
-    "level": "60"
+    "name": "NgRx",
+    "level": "40",
+    "url": "https://www.typescriptlang.org/"
   },
   "5": {
     "id": 5,
+    "name": "AngularJS",
+    "level": "70",
+    "url": "https://angularjs.org/"
+  },
+  "6": {
+    "id": 6,
+    "name": "HTML5",
+    "level": "70",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+  },
+  "7": {
+    "id": 7,
     "name": "CSS",
-    "level": "50"
+    "level": "70",
+    "url": "https://www.w3.org/Style/CSS/Overview.en.html"
+  },
+  "8": {
+    "id": 8,
+    "name": "Node",
+    "level": "40",
+    "url": "https://nodejs.org/en/"
+  },
+  "9": {
+    "id": 9,
+    "name": "Java",
+    "level": "30",
+    "url": "https://www.java.com/en/"
   }
 }

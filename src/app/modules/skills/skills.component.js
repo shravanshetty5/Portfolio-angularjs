@@ -1,7 +1,6 @@
 // eslint-disable-next-line
-import skillsText from "../../../data/skills-data.json";
-import ProgressBar from 'progressbar.js';
 import Masonry from 'masonry-layout';
+import skillsText from "../../../data/skills-data.json";
 
 const skillsCtrl = function () {
     let vm = this;
@@ -17,6 +16,12 @@ const skillsCtrl = function () {
         });
       }, 200);
     };
+
+    vm.click = function (url) {
+      if (url) {
+        window.location.href = url;
+      }
+    };
 };
 
 
@@ -26,6 +31,5 @@ const skills = {
     controller: skillsCtrl,
     template: require('./skills.component.html')
   };
-  
+
   export default skills;
-  
