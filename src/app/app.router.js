@@ -61,7 +61,7 @@ export default function routing($urlRouterProvider, $locationProvider, $statePro
     {
         name: 'Projects',
         url: '/projects',
-        template: '<projects></projects>'
+        template: '<project-list></project-list>'
     },
     {
         name: 'Error',
@@ -72,7 +72,7 @@ export default function routing($urlRouterProvider, $locationProvider, $statePro
 $urlRouterProvider.when('/experience', '/experience/list');
 $urlRouterProvider.when('/education', '/education/list');
 $urlRouterProvider.otherwise('/error');
-states.forEach(function (state) {       
+states.forEach(function (state) {
     $stateProvider.state(state);
 });
 }

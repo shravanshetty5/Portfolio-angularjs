@@ -1,17 +1,18 @@
 import angular from 'angular';
-import 'bootstrap/dist/css/bootstrap.css';
-import uirouter from 'angular-ui-router';
 import 'angular-typewriter/dist/angular-typewrite.css';
-
+import uirouter from 'angular-ui-router';
+import 'bootstrap/dist/css/bootstrap.css';
+import '../style/app.css';
 import routing from './app.router';
-import mainNavigation from './modules/mainNavigation';
-import home from './modules/home';
-import error from './modules/error';
 import education from './modules/education';
+import error from './modules/error';
 import experience from './modules/experience';
+import home from './modules/home';
+import mainNavigation from './modules/mainNavigation';
+import projects from './modules/projects';
 import skills from './modules/skills';
 
-import '../style/app.css';
+
 
 let app = () => {
   return {
@@ -29,7 +30,7 @@ class AppCtrl {
 
 const MODULE_NAME = 'app';
 
-angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education, experience, skills])
+angular.module(MODULE_NAME, [uirouter, mainNavigation, home, error, education, experience, skills, projects])
   .config(routing)
   .directive('app', app)
   .controller('AppCtrl', AppCtrl);

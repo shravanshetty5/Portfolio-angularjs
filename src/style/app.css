@@ -37,11 +37,12 @@ img {
 }
 
 .skill-img {
-  padding-left: 41%;
-  height: 900px;
+  padding-left: 23%;
+  height: 500px;
 }
 
 .experience-img {
+  height: 500px;
   padding-left: 14%;
 }
 
@@ -56,4 +57,41 @@ img {
 
 .typewriter {
   padding-top: 195px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #343a40 !important;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.project-container h2 {
+  color: aliceblue;
+  text-align: center;
+}
+
+.project-container p {
+  color: aliceblue;
+  text-align: center;
+}
+
+.project-container:hover {
+  transform: scale(1.05);
+}
+
+.project-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }

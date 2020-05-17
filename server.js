@@ -10,5 +10,5 @@ const DEFAULT_PORT  = 3000;
 app.set("port", process.env.PORT || DEFAULT_PORT);
 app.use(express.static(DIST_DIR));
 app.get("*", (req, res) => res.sendFile(HTML_FILE));
-
+console.log("Portfolio website started at http://localhost:3000")
 app.listen(app.get("port"));
