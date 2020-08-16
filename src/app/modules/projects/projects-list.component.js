@@ -2,12 +2,12 @@
 import projects from "../../../data/project-data";
 
 const projectList = {
-  controllerAs: 'vm',
+  controllerAs: "vm",
   controller: function () {
     let vm = this;
     vm.projects = projects;
   },
-  template: require('./projects-list.component.html')
+  template: require("./projects-list.component.html"),
 };
 
 export default projectList;

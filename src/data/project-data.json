@@ -1,8 +1,20 @@
 {
   "0": {
+    "name": "Momentum  design",
+    "desc": "reusable, well-tested, and accessible UI components",
+    "imageUrl": "/img/momentum-design.png",
+    "url": "https://momentum.design/"
+  },
+  "1": {
     "name": "Friends List",
     "desc": "List of people in my good books 😉",
     "imageUrl": "/img/friends-list.png",
     "url": "https://shravanshetty5.github.io/friends-list/"
+  },
+  "2": {
+    "name": "Simple Form ",
+    "desc": "A simple form inplintation in Vanilla JS",
+    "imageUrl": "/img/simple-form.png",
+    "url": "https://shravanshetty5.github.io/simpleForm/"
   }
 }

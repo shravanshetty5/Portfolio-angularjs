@@ -8,10 +8,10 @@ body {
 }
 
 .progressbar-item-container {
-  width:150px;
-  height:150px;
-  margin:10px;
-  position:relative
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  position: relative;
 }
 
 .grid-item:hover {
@@ -20,7 +20,7 @@ body {
   box-shadow: 1px 1px 1px black;
   border-radius: 100px;
   background: #acadaf;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   -webkit-animation: wiggle 0.3s 0s infinite ease-in;
   animation: wiggle 0.3s 0s infinite ease-in;
   opacity: 1;
@@ -72,6 +72,7 @@ img {
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  height: 320px;
 }
 
 .project-container h2 {
