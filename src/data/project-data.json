@@ -13,14 +13,20 @@
   },
   "2": {
     "name": "Simple Form ",
-    "desc": "A simple form inplintation in Vanilla JS",
+    "desc": "A simple form implementation in VanillaJS",
     "imageUrl": "/img/simple-form.png",
     "url": "https://shravanshetty5.github.io/simpleForm/"
   },
   "3": {
     "name": "Movie Ticket Booking App",
-    "desc": "App demoving data persistance using localStorage",
+    "desc": "App demoing data persistence using localStorage",
     "imageUrl": "/img/movie-app.png",
     "url": "https://shravanshetty5.github.io/movie-ticket-booking-vanillaJS/"
+  },
+  "4": {
+    "name": "Currency Exchange Rate",
+    "desc": "Application displaying current currency exchange rate",
+    "imageUrl": "/img/currency-exchnage.png",
+    "url": "https://shravanshetty5.github.io/currency-exchange-rate-calculator/"
   }
 }
