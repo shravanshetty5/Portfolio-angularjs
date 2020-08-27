@@ -28,5 +28,11 @@
     "desc": "Application displaying current currency exchange rate",
     "imageUrl": "/img/currency-exchnage.png",
     "url": "https://shravanshetty5.github.io/currency-exchange-rate-calculator/"
+  },
+  "5": {
+    "name": "Hangman Game",
+    "desc": "A simple hangman game",
+    "imageUrl": "/img/hangman.png",
+    "url": "https://shravanshetty5.github.io/hangman/"
   }
 }
