@@ -34,5 +34,11 @@
     "desc": "A simple hangman game",
     "imageUrl": "/img/hangman.png",
     "url": "https://shravanshetty5.github.io/hangman/"
+  },
+  "6": {
+    "name": "Expense Tracker",
+    "desc": "Expense tracker app",
+    "imageUrl": "/img/expense-tracker.png",
+    "url": "https://shravanshetty5.github.io/expense-tracker/"
   }
 }
